@@ -12,7 +12,7 @@ import octoprint.plugin
 
 class OctocontrolPlugin(octoprint.plugin.StartupPlugin):
     def on_after_startup(self):
-        self._logger.info("Hello World!  from new plugin")
+        self._logger.info("Hello World!  second text update")
 
 
 # If you want your plugin to be registered within OctoPrint under a different name than what you defined in setup.py
